@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF110B4027F5FB6F00EFD485 /* ArtifactTWOApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF110B3F27F5FB6F00EFD485 /* ArtifactTWOApp.swift */; };
+		EF110B4227F5FB6F00EFD485 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF110B4127F5FB6F00EFD485 /* ContentView.swift */; };
+		EF110B4427F5FB7000EFD485 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF110B4327F5FB7000EFD485 /* Assets.xcassets */; };
+		EF110B4727F5FB7000EFD485 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF110B4627F5FB7000EFD485 /* Preview Assets.xcassets */; };
+		EF110B7227F7458E00EFD485 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF110B7127F7458E00EFD485 /* WidgetKit.framework */; };
+		EF110B7427F7458E00EFD485 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF110B7327F7458E00EFD485 /* SwiftUI.framework */; };
+		EF110B7727F7458E00EFD485 /* PaintWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF110B7627F7458E00EFD485 /* PaintWidget.swift */; };
+		EF110B7927F7459000EFD485 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF110B7827F7459000EFD485 /* Assets.xcassets */; };
+		EF110B7D27F7459000EFD485 /* PaintWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = EF110B6F27F7458E00EFD485 /* PaintWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		EF110B8227F7468100EFD485 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF110B4127F5FB6F00EFD485 /* ContentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF110B7B27F7459000EFD485 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF110B3427F5FB6E00EFD485 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF110B6E27F7458E00EFD485;
+			remoteInfo = PaintWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EF110B7E27F7459000EFD485 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				EF110B7D27F7459000EFD485 /* PaintWidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EF110B3C27F5FB6F00EFD485 /* ArtifactTWO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArtifactTWO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF110B3F27F5FB6F00EFD485 /* ArtifactTWOApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtifactTWOApp.swift; sourceTree = "<group>"; };
+		EF110B4127F5FB6F00EFD485 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EF110B4327F5FB7000EFD485 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF110B4627F5FB7000EFD485 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EF110B6F27F7458E00EFD485 /* PaintWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = PaintWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF110B7127F7458E00EFD485 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		EF110B7327F7458E00EFD485 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		EF110B7627F7458E00EFD485 /* PaintWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaintWidget.swift; sourceTree = "<group>"; };
+		EF110B7827F7459000EFD485 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF110B7A27F7459000EFD485 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF110B3927F5FB6F00EFD485 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF110B6C27F7458E00EFD485 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF110B7427F7458E00EFD485 /* SwiftUI.framework in Frameworks */,
+				EF110B7227F7458E00EFD485 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF110B3327F5FB6E00EFD485 = {
+			isa = PBXGroup;
+			children = (
+				EF110B3E27F5FB6F00EFD485 /* ArtifactTWO */,
+				EF110B7527F7458E00EFD485 /* PaintWidget */,
+				EF110B7027F7458E00EFD485 /* Frameworks */,
+				EF110B3D27F5FB6F00EFD485 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF110B3D27F5FB6F00EFD485 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF110B3C27F5FB6F00EFD485 /* ArtifactTWO.app */,
+				EF110B6F27F7458E00EFD485 /* PaintWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF110B3E27F5FB6F00EFD485 /* ArtifactTWO */ = {
+			isa = PBXGroup;
+			children = (
+				EF110B3F27F5FB6F00EFD485 /* ArtifactTWOApp.swift */,
+				EF110B4127F5FB6F00EFD485 /* ContentView.swift */,
+				EF110B4327F5FB7000EFD485 /* Assets.xcassets */,
+				EF110B4527F5FB7000EFD485 /* Preview Content */,
+			);
+			path = ArtifactTWO;
+			sourceTree = "<group>";
+		};
+		EF110B4527F5FB7000EFD485 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EF110B4627F5FB7000EFD485 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EF110B7027F7458E00EFD485 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF110B7127F7458E00EFD485 /* WidgetKit.framework */,
+				EF110B7327F7458E00EFD485 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF110B7527F7458E00EFD485 /* PaintWidget */ = {
+			isa = PBXGroup;
+			children = (
+				EF110B7627F7458E00EFD485 /* PaintWidget.swift */,
+				EF110B7827F7459000EFD485 /* Assets.xcassets */,
+				EF110B7A27F7459000EFD485 /* Info.plist */,
+			);
+			path = PaintWidget;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF110B3B27F5FB6F00EFD485 /* ArtifactTWO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF110B4A27F5FB7000EFD485 /* Build configuration list for PBXNativeTarget "ArtifactTWO" */;
+			buildPhases = (
+				EF110B3827F5FB6F00EFD485 /* Sources */,
+				EF110B3927F5FB6F00EFD485 /* Frameworks */,
+				EF110B3A27F5FB6F00EFD485 /* Resources */,
+				EF110B7E27F7459000EFD485 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF110B7C27F7459000EFD485 /* PBXTargetDependency */,
+			);
+			name = ArtifactTWO;
+			productName = ArtifactTWO;
+			productReference = EF110B3C27F5FB6F00EFD485 /* ArtifactTWO.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF110B6E27F7458E00EFD485 /* PaintWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF110B8127F7459000EFD485 /* Build configuration list for PBXNativeTarget "PaintWidgetExtension" */;
+			buildPhases = (
+				EF110B6B27F7458E00EFD485 /* Sources */,
+				EF110B6C27F7458E00EFD485 /* Frameworks */,
+				EF110B6D27F7458E00EFD485 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PaintWidgetExtension;
+			productName = PaintWidgetExtension;
+			productReference = EF110B6F27F7458E00EFD485 /* PaintWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF110B3427F5FB6E00EFD485 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					EF110B3B27F5FB6F00EFD485 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					EF110B6E27F7458E00EFD485 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = EF110B3727F5FB6E00EFD485 /* Build configuration list for PBXProject "ArtifactTWO" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF110B3327F5FB6E00EFD485;
+			productRefGroup = EF110B3D27F5FB6F00EFD485 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF110B3B27F5FB6F00EFD485 /* ArtifactTWO */,
+				EF110B6E27F7458E00EFD485 /* PaintWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF110B3A27F5FB6F00EFD485 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF110B4727F5FB7000EFD485 /* Preview Assets.xcassets in Resources */,
+				EF110B4427F5FB7000EFD485 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF110B6D27F7458E00EFD485 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF110B7927F7459000EFD485 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF110B3827F5FB6F00EFD485 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF110B4227F5FB6F00EFD485 /* ContentView.swift in Sources */,
+				EF110B4027F5FB6F00EFD485 /* ArtifactTWOApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF110B6B27F7458E00EFD485 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF110B8227F7468100EFD485 /* ContentView.swift in Sources */,
+				EF110B7727F7458E00EFD485 /* PaintWidget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF110B7C27F7459000EFD485 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF110B6E27F7458E00EFD485 /* PaintWidgetExtension */;
+			targetProxy = EF110B7B27F7459000EFD485 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EF110B4827F5FB7000EFD485 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF110B4927F5FB7000EFD485 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF110B4B27F5FB7000EFD485 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ArtifactTWO/Preview Content\"";
+				DEVELOPMENT_TEAM = 585KQX5HF9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alessandrogallo.ArtifactTWO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF110B4C27F5FB7000EFD485 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ArtifactTWO/Preview Content\"";
+				DEVELOPMENT_TEAM = 585KQX5HF9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alessandrogallo.ArtifactTWO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EF110B7F27F7459000EFD485 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 585KQX5HF9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PaintWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PaintWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alessandrogallo.ArtifactTWO.PaintWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF110B8027F7459000EFD485 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 585KQX5HF9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PaintWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PaintWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alessandrogallo.ArtifactTWO.PaintWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF110B3727F5FB6E00EFD485 /* Build configuration list for PBXProject "ArtifactTWO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF110B4827F5FB7000EFD485 /* Debug */,
+				EF110B4927F5FB7000EFD485 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF110B4A27F5FB7000EFD485 /* Build configuration list for PBXNativeTarget "ArtifactTWO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF110B4B27F5FB7000EFD485 /* Debug */,
+				EF110B4C27F5FB7000EFD485 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF110B8127F7459000EFD485 /* Build configuration list for PBXNativeTarget "PaintWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF110B7F27F7459000EFD485 /* Debug */,
+				EF110B8027F7459000EFD485 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF110B3427F5FB6E00EFD485 /* Project object */;
+}
